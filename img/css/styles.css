@@ -1,0 +1,72 @@
+/* This is a comment */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+#the-one {
+  color: lightsalmon;
+}
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5rem;
+}
+body {
+  background-color: lemonchiffon;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+h1 {
+  color: darkmagenta;
+  background-color: lemonchiffon;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin-left: 0.5rem;
+}
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: normal;
+  letter-spacing: -0.2rem;
+  word-spacing: 0.3rem;
+  margin-left: 0.5rem;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+a {
+  text-decoration: none;
+  background-color: darkcyan;
+}
+a:visited {
+  color: orangered;
+}
+a:hover {
+  color: blueviolet;
+}
+a:active {
+  color: green;
+  background-color: hotpink;
+}
+.new-color {
+  color: darkred;
+  background-color: lightskyblue;
+}
+.box {
+  background-color: teal;
+  width: 300px;
+  padding: 30px;
+  border: 20px solid lightsalmon;
+  margin: 30px;
+}
+.standard-box {
+  box-sizing: content-box;
+}
+.border-box {
+  border-bottom: 20px solid lightsalmon;
+  border-top: 15px solid lightsalmon;
+  padding-right: 10px 20px 30px 20px;
+}
