@@ -17,7 +17,9 @@ body {
   background-color: lemonchiffon;
   max-width: 1000px;
   margin: 0 auto;
+  background-image: url("img/heather.jpeg");
 }
+/*background img doesn't work*/
 h1 {
   color: darkmagenta;
   background-color: lemonchiffon;
