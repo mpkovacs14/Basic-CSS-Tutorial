@@ -18,6 +18,8 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   background-image: url("../img/heather.jpeg");
+  background-position: center;
+  background-repeat: repeat-y;
 }
 /*background img doesn't work*/
 h1 {
